@@ -142,7 +142,7 @@ show={this.state.showModal} onHide={this.close} >
                <hr />
 
                <h4>Overflowing text to show scroll behavior</h4>
-            
+
                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
              </Modal.Body>
@@ -150,6 +150,107 @@ show={this.state.showModal} onHide={this.close} >
                <Button onClick={this.close}>Close</Button>
              </Modal.Footer>
            </Modal>
+
+           <div className="area">
+             <nav className="main-menu">
+                         <ul>
+                             <li>
+                                 <a href="#">
+                                     <i className="fa fa-home fa-2x"></i>
+                                     <span className="nav-text">
+                                         Dashboard
+                                     </span>
+                                 </a>
+
+                             </li>
+                             <li className="has-subnav">
+                                 <a href="#">
+                                     <i className="fa fa-laptop fa-2x"></i>
+                                     <span className="nav-text">
+                                         UI Components
+                                     </span>
+                                 </a>
+
+                             </li>
+                             <li className="has-subnav">
+                                 <a href="#">
+                                    <i className="fa fa-list fa-2x"></i>
+                                     <span className="nav-text">
+                                         Forms
+                                     </span>
+                                 </a>
+
+                             </li>
+                             <li className="has-subnav">
+                                 <a href="#">
+                                    <i className="fa fa-folder-open fa-2x"></i>
+                                     <span className="nav-text">
+                                         Pages
+                                     </span>
+                                 </a>
+
+                             </li>
+                             <li>
+                                 <a href="#">
+                                     <i className="fa fa-bar-chart-o fa-2x"></i>
+                                     <span className="nav-text">
+                                         Graphs and Statistics
+                                     </span>
+                                 </a>
+                             </li>
+                             <li>
+                                 <a href="#">
+                                     <i className="fa fa-font fa-2x"></i>
+                                     <span className="nav-text">
+                                         Typography and Icons
+                                     </span>
+                                 </a>
+                             </li>
+                             <li>
+                                <a href="#">
+                                    <i className="fa fa-table fa-2x"></i>
+                                     <span className="nav-text">
+                                         Tables
+                                     </span>
+                                 </a>
+                             </li>
+                             <li>
+                                <a href="#">
+                                     <i className="fa fa-map-marker fa-2x"></i>
+                                     <span className="nav-text">
+                                         Maps
+                                     </span>
+                                 </a>
+                             </li>
+                             <li>
+                                 <a href="#">
+                                    <i className="fa fa-info fa-2x"></i>
+                                     <span className="nav-text">
+                                         Documentation
+                                     </span>
+                                 </a>
+                             </li>
+                         </ul>
+
+                         <ul className="logout">
+                             <li>
+                                <a href="#">
+                                      <i className="fa fa-power-off fa-2x"></i>
+                                     <span className="nav-text">
+                                         Logout
+                                     </span>
+                                 </a>
+                             </li>
+                         </ul>
+                     </nav>
+             <Nav bsStyle="pills" stacked activeKey={1} >
+                 <NavItem eventKey={1} href="/home">NavItem 1 content</NavItem>
+                 <NavItem eventKey={2} title="Item">NavItem 2 content</NavItem>
+                 <NavItem eventKey={3} disabled>NavItem 3 content</NavItem>
+               </Nav>
+
+           </div>
+
  <Carousel>
     <Carousel.Item>
       <img width={width} height={height} alt="1200x500" src="https://react-bootstrap.github.io//assets/carousel.png"/>
