@@ -1,0 +1,283 @@
+.account-left-panel {
+  .account-buttons-row .button {
+    min-width: 4.5rem;
+  }
+  .bottom {
+    border-top: 1px solid transparent;
+    padding: 0.5rem;
+    > .center {
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+}
+
+.account-info {
+  text-align: center;
+  .my-account-label {
+    font-size: 90%;
+  }
+}
+
+.account-left-menu {
+  margin-left: 1.25rem !important;
+  > li {
+    &.menu-subheader {
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      padding: 1.5rem 0.5rem 0.25rem 0.5rem;
+      text-align: center;
+      border-bottom: none !important;
+
+      > span {
+          display: inline-block;
+          color: inherit;
+          cursor: pointer;
+      }
+    }
+
+    > a {
+      padding-left: 1.75rem !important;
+      border-left: 2px solid transparent;
+      &.active {
+        border-left-color: #f00;
+      }
+    }
+
+
+  }
+}
+
+.no-amount {
+  padding-right: 1rem;
+  padding-left: 0.7rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.weight-input {
+  display: table-cell;
+  margin: 0 1rem !important;
+  width: 30% !important;
+}
+
+.threshold input {
+  width: 5rem !important;
+}
+
+.more-button {
+  padding-top: 0.5rem;
+}
+
+.create-account-header {
+  height: 180px;
+}
+
+a.action-button > span {
+    text-transform: lowercase;
+}
+
+.recent-activity-list__game-move__ids {
+  padding-top: 0.2rem;
+  p {
+    @extend .facolor-fee;
+    display: inline-block;
+    margin-bottom: 0;
+    padding-right: 1.5rem;
+    font-family: 'Roboto-Light', arial, sans-serif;
+    font-weight: normal;
+    strong {
+      font-weight: bolder;
+      font-style: italic;
+      color: #e0e0e0;
+    }
+  }
+}
+
+/*------------------------- icons -----------------------------*/
+/* sprite image and icon classes for desktop */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1),
+only screen and (   min--moz-device-pixel-ratio: 1),
+only screen and (     -o-min-device-pixel-ratio: 1/1),
+only screen and (        min-device-pixel-ratio: 1),
+only screen and ( min-resolution: 96dpi)
+{
+  [class^="icon-game-"], [class*=" icon-game-"] {
+    background: url("/rps-icons/rps-icons-sprite@1x.png") no-repeat top left;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    transform: scale(0.5, 0.5);
+    margin-left: -0.5rem;
+    margin-bottom: -1rem;
+    border: 1px dotted white;
+  }
+  .icon-game-scissors-red {
+    background-position: 0px 0;
+  }
+  .icon-game-scissors-white {
+    background-position: -55px 0;
+  }
+  .icon-game-paper {
+    background-position: -110px 0;
+  }
+  .icon-game-paper-red {
+    background-position: -165px 0;
+  }
+  .icon-game-paper-white {
+    background-position: -220px 0;
+  }
+  .icon-game-question {
+    background-position: -275px 0;
+    width: 39px;
+  }
+  .icon-game-question-red {
+    background-position: -319px 0;
+  }
+  .icon-game-question-white {
+    background-position: -374px 0;
+  }
+  .icon-game-rock {
+    background-position: -429px 0;
+    height: 50px;
+  }
+  .icon-game-rock-red {
+    background-position: -484px 0;
+  }
+  .icon-game-rock-white {
+    background-position: -539px 0;
+  }
+  .icon-game-scissors {
+    background-position: -594px 0;
+    height: 53px;
+  }
+}
+
+/* sprite image and icon classes for 2x retina devices (iphone6, iphone5, iphone4 etc) */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and ( min-resolution: 192dpi) {
+  [class^="icon-game-"], [class*=" icon-game-"] {
+    background: url("/rps-icons/rps-icons-sprite@2x.png") no-repeat top left;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    -webkit-background-size: 644px, 53px;
+    -moz-background-size: 644px, 53px;
+    background-size: 644px, 53px;
+  }
+  .icon-game-scissors-red {
+    background-position: 0px 0;
+  }
+  .icon-game-scissors-white {
+    background-position: -55px 0;
+  }
+  .icon-game-paper {
+    background-position: -110px 0;
+  }
+  .icon-game-paper-red {
+    background-position: -165px 0;
+  }
+  .icon-game-paper-white {
+    background-position: -220px 0;
+  }
+  .icon-game-question {
+    background-position: -275px 0;
+    width: 39px;
+  }
+  .icon-game-question-red {
+    background-position: -319px 0;
+  }
+  .icon-game-question-white {
+    background-position: -374px 0;
+  }
+  .icon-game-rock {
+    background-position: -429px 0;
+    height: 50px;
+  }
+  .icon-game-rock-red {
+    background-position: -484px 0;
+  }
+  .icon-game-rock-white {
+    background-position: -539px 0;
+  }
+  .icon-game-scissors {
+    background-position: -594px 0;
+    height: 53px;
+  }
+}
+
+/* sprite image and icon classes for 3x retina devices like iphone6s */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (   min--moz-device-pixel-ratio: 3),
+only screen and (     -o-min-device-pixel-ratio: 3/1),
+only screen and (        min-device-pixel-ratio: 3),
+only screen and ( min-resolution: 288dpi) {
+  [class^="icon-game"], [class*=" icon-game"] {
+    background: url("/rps-icons/rps-icons-sprite@3x.png") no-repeat top left;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    -webkit-background-size: 644px, 53px;
+    -moz-background-size: 644px, 53px;
+    background-size: 644px, 53px;
+  }
+  .icon-game-scissors-red {
+    background-position: 0px 0;
+  }
+  .icon-game-scissors-white {
+    background-position: -55px 0;
+  }
+  .icon-game-paper {
+    background-position: -110px 0;
+  }
+  .icon-game-paper-red {
+    background-position: -165px 0;
+  }
+  .icon-game-paper-white {
+    background-position: -220px 0;
+  }
+  .icon-game-question {
+    background-position: -275px 0;
+    width: 39px;
+  }
+  .icon-game-question-red {
+    background-position: -319px 0;
+  }
+  .icon-game-question-white {
+    background-position: -374px 0;
+  }
+  .icon-game-rock {
+    background-position: -429px 0;
+    height: 50px;
+  }
+  .icon-game-rock-red {
+    background-position: -484px 0;
+  }
+  .icon-game-rock-white {
+    background-position: -539px 0;
+  }
+  .icon-game-scissors {
+    background-position: -594px 0;
+    height: 53px;
+  }
+}
+
+.asset-update-alignment {
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.react-date-field {
+  color: black;
+}
+
+.react-date-field__input {
+  background: #dddddd;
+  height: 38px;
+}

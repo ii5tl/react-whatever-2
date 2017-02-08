@@ -1,0 +1,17 @@
+require("file?name=rps-icons/[name].svg!./rock.svg");
+require("file?name=rps-icons/[name].svg!./paper.svg");
+require("file?name=rps-icons/[name].svg!./scissors.svg");
+require("file?name=rps-icons/[name].png!./rock-white.png");
+require("file?name=rps-icons/[name].png!./paper-white.png");
+require("file?name=rps-icons/[name].png!./scissors-white.png");
+require("file?name=rps-icons/[name].png!./question-white.png");
+require("file?name=rps-icons/[name].png!./rock-red.png");
+require("file?name=rps-icons/[name].png!./paper-red.png");
+require("file?name=rps-icons/[name].png!./scissors-red.png");
+require("file?name=rps-icons/[name].png!./spritesheet.png");
+require("file?name=rps-icons/[name].png!./question.png");
+require("file?name=rps-icons/[name].png!./question-red.png");
+require("file?name=rps-icons/[name].png!./bkg.png");
+require("file?name=rps-icons/[name].png!./rps-icons-sprite@1x.png");
+require("file?name=rps-icons/[name].png!./rps-icons-sprite@2x.png");
+require("file?name=rps-icons/[name].png!./rps-icons-sprite@3x.png");

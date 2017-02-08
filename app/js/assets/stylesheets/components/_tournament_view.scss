@@ -1,0 +1,284 @@
+.column_matches {
+  color: white;
+  border: 1px solid;
+  width: 150px;
+  height: 60px;
+  padding: 5px;
+}
+
+.column_matches_a {
+  @extend .column_matches;
+  margin-bottom: 25px;
+}
+
+.column_matches_b {
+  @extend .column_matches;
+  margin-top: 110px;
+}
+
+.column_matches_c {
+  @extend .column_matches;
+  margin-top: 280px;
+}
+
+.column_matches_d {
+  @extend .column_matches;
+  margin-top: 620px;
+}
+
+.column_matches_e {
+  @extend .column_matches;
+  margin-top: 1300px;
+}
+
+.column_matches_f {
+  @extend .column_matches;
+  margin-bottom: 400px;
+}
+
+.column_matches_left_a {
+  float: left;
+  margin-bottom: 15px;
+}
+
+.column_matches_left_b {
+  float: left;
+  margin-top: -70px;
+}
+
+.column_matches_left_c {
+  float: left;
+  margin-top: -155px;
+}
+
+.column_matches_left_d {
+  float: left;
+  margin-top: -325px;
+}
+
+.column_matches_left_e {
+  float: left;
+  margin-top: -665px;
+}
+
+.column_matches_left_f {
+  float: left;
+  margin-top: 1310px;
+}
+
+.horizontal_line_b {
+  height: 0px; 
+  width: 15px; 
+  position: relative; 
+  border-bottom: 1px solid gray;
+  margin-top: 169px;
+}
+
+.horizontal_left_b {
+  float: left;
+  margin-top: -96px;
+}
+
+.vertical_line_b {
+  height: 25px; 
+  width: 0px; 
+  position: relative; 
+  border-left: 1px solid gray;
+  margin-top: 145px;
+}
+
+.vertical_left_b {
+  float: left;
+  margin-top: -85px;
+}
+
+.horizontal_line_c {
+  height: 0px; 
+  width: 15px; 
+  position: relative; 
+  border-bottom: 1px solid gray;
+  margin-top: 339px;
+}
+
+.horizontal_left_c {
+  float: left;
+  margin-top: -181px;
+}
+
+.vertical_line_c {
+  height: 110px;
+  width: 0px; 
+  position: relative; 
+  border-left: 1px solid gray;
+  margin-top: 230px;
+}
+
+.vertical_left_c {
+  float: left;
+  margin-top: -130px;
+}
+
+.horizontal_line_d {
+  height: 0px; 
+  width: 15px; 
+  position: relative; 
+  border-bottom: 1px solid gray;
+  margin-top: 679px;
+}
+
+.horizontal_left_d {
+  float: left;
+  margin-top: -351px;
+}
+
+.vertical_line_d {
+  height: 280px; 
+  width: 0px; 
+  position: relative; 
+  border-left: 1px solid gray;
+  margin-top: 400px;
+}
+
+.vertical_left_d {
+  float: left;
+  margin-top: -215px;
+}
+
+.horizontal_line_e {
+  height: 0px; 
+  width: 15px; 
+  position: relative; 
+  border-bottom: 1px solid gray;
+  margin-top: 1358px;
+}
+
+.horizontal_left_e {
+  float: left;
+  margin-top: -689px;
+}
+
+.vertical_line_e {
+  height: 620px; 
+  width: 0px; 
+  position: relative; 
+  border-left: 1px solid gray;
+  margin-top: 740px;
+}
+
+.vertical_left_e {
+  float: left;
+  margin-top: -385px;
+}
+
+.horizontal_line_f {
+  height: 0px; 
+  width: 15px; 
+  position: relative; 
+  border-bottom: 1px solid gray;
+  margin-top: 149px;
+}
+
+.horizontal_left_f {
+  float: left;
+  margin-top: 1195px;
+}
+
+.vertical_line_f {
+  height: 1300px; 
+  width: 0px; 
+  position: relative; 
+  border-left: 1px solid gray;
+  margin-top: 208px;
+}
+
+.vertical_left_f {
+  float: left;
+  margin-top: 487px;
+}
+
+.state {
+  color: #00adee;
+}
+
+.right {
+  float: right;
+}
+
+.bold_player {
+  font-weight: bold;
+}
+
+.winner_place_a {
+  width: 150px; 
+  position: relative; 
+  border-bottom: 1px solid white;
+  margin-top: 15px;
+  float: left;
+  color: white;
+  text-align: center;
+}
+
+.winner_place_b {
+  width: 150px; 
+  position: relative; 
+  border-bottom: 1px solid white;
+  margin-top: 55px;
+  float: left;
+  color: white;
+  text-align: center;
+}
+
+.winner_place_c {
+  width: 150px; 
+  position: relative; 
+  border-bottom: 1px solid white;
+  margin-top: 140px;
+  float: left;
+  color: white;
+  text-align: center;
+}
+
+.winner_place_d {
+  width: 150px; 
+  position: relative; 
+  border-bottom: 1px solid white;
+  margin-top: 310px;
+  float: left;
+  color: white;
+  text-align: center;
+}
+
+.winner_place_e {
+  width: 150px; 
+  position: relative; 
+  border-bottom: 1px solid white;
+  margin-top: 650px;
+  float: left;
+  color: white;
+  text-align: center;
+}
+
+.winner_place_f {
+  width: 150px; 
+  position: relative; 
+  border-bottom: 1px solid white;
+  margin-top: 1325px;
+  float: left;
+  color: white;
+  text-align: center;
+}
+
+.darkTheme {
+  .button.outline {
+    min-width: 106px;
+  }
+  .button.outline.disabled-button {
+    border-color: #666;
+    color: #666;
+  }
+  .button.outline.disabled-button:hover {
+    border-color: #666;
+    color: #666;
+    cursor: auto;
+  }
+}
